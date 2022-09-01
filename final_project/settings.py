@@ -30,7 +30,7 @@ if ENV =="dev":
 else:
     DEBUG = False
 
-ALLOWED_HOSTS = ["*"]
+ALLOWED_HOSTS = ['*']
 
 AUTH_USER_MODEL = "user.User"
 
